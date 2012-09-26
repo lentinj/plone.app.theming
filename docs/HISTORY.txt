@@ -4,6 +4,10 @@ Changelog
 1.1b1 (unreleased)
 ------------------
 
+- Ensure host blacklist utilises SERVER_URL to correctly determine hostname
+  for sites hosted as sub-folders at any depth.
+  [davidjb]
+
 - Make example Bootstrap-based theme use the HTML5 DOCTYPE.
   [danjacka]
 
